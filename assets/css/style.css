@@ -237,6 +237,7 @@ a:active {
 .content_box {
     position: relative;
     background: white;
+    z-index:  2;
     border: solid #dddddd;
 }
 
@@ -261,6 +262,11 @@ a:active {
 
 #mobile_head {
     display: none;
+}
+
+#container{
+    height: 100%;
+    
 }
 
 @media screen and (max-width: 980px) {
@@ -302,6 +308,11 @@ a:active {
 @media screen and (max-width: 768px) {
     #content {
         width: 585px;
+        z-index:  3;
+    }
+
+    footer {
+    z-index: 1;
     }
 
     #top_content {
