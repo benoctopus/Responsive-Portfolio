@@ -1,5 +1,6 @@
 body {
     background: lightgray;
+    height: 100%
 }
 
 footer {
@@ -86,13 +87,14 @@ a:active {
     position:  relative;
     float: left;
     width: auto;
+    /* padding: 0 50px 0 35px; */
     margin-top: -10px;
     padding-bottom: 9px;
     height: auto;
     background: #4aaaa5;
 }
 
-#link_box {
+.link_box {
     position: relative;
     width: auto;
     float: right;
@@ -253,8 +255,12 @@ a:active {
 .about_me {
     width: 66.3%;
     float: left;
-    padding-bottom:  10px;
+    padding-bottom: 10px;
     margin-bottom: 75px;
+}
+
+#mobile_head {
+    display: none;
 }
 
 @media screen and (max-width: 980px) {
@@ -279,8 +285,16 @@ a:active {
         width: 640px;
     }
 
+    #mobile_head {
+        display: none;
+    }
+
+    #top {
+        display: block;
+    }
+
     #top_content {
-        width: 626px;
+        width: 640px;
     }
     
 }
@@ -290,8 +304,66 @@ a:active {
         width: 585px;
     }
 
+    #top_content {
+        width: 585px;
+    }
+
     #portrait {
         width: 100%;
         margin-bottom: 20px;
     }
+
+    #name_box {
+        position: static;
+        margin: auto;
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    #link_box {
+        position: static;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    #top {
+        display: none;
+    }
+
+    #mobile_head {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-bottom: -73px;
+        height: 111px;
+        background: white;
+        border-bottom: solid #cccccc;
+    }
+    h1 {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 11px;
+        padding-top: 9px;
+        background: #4aaaa5;
+        /* margin-left: -7%; */
+    }
+
+    .link_box {
+        border: none;
+        float:  none;
+        padding-left: 0%;
+        width: 409px;
+        margin: 10px auto 0 auto;
+    }
+
+    .top_link {
+        border: none;
+        padding: 0px 38px 0 38px;
+        float: none;
+        /* text-align:  center; */
+    }
+
+    
 }
