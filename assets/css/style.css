@@ -33,7 +33,7 @@ h2 {
 
 h5 {
     color: aliceblue;
-    font-size: 2vw;
+    font-size: 31px;
     text-align: center;
     margin-top: 4%;
 }
@@ -364,6 +364,24 @@ a:active {
         float: none;
         /* text-align:  center; */
     }
+
+    .portfolio_item {
+        /* float: none; */
+        width: initial;
+    }
+
+    .item_banner {
+        width: 99%;
+    }
+
+    h5 {
+        font-size: 53px;
+    }
+
+    a:hover {
+        font-weight: normal;
+    }
+
 
     
 }
