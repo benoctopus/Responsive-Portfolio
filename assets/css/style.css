@@ -307,8 +307,8 @@ a:active {
 
 @media screen and (max-width: 768px) {
     #content {
-        width: 585px;
-        z-index:  3;
+        width: 570px;
+        z-index: 3;
     }
 
     footer {
