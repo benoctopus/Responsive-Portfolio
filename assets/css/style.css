@@ -305,9 +305,10 @@ a:active {
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 680px) {
     #content {
-        width: 570px;
+        width: 96%;
+        margin-left: 4px;
         z-index: 3;
     }
 
@@ -364,14 +365,13 @@ a:active {
     .link_box {
         border: none;
         float:  none;
-        padding-left: 0%;
-        width: 409px;
-        margin: 10px auto 0 auto;
+        margin: 12px 0 0 -9px;
+        text-align:  center;
     }
 
     .top_link {
         border: none;
-        padding: 0px 38px 0 38px;
+        padding: 0px 21px 0 21px;
         float: none;
         /* text-align:  center; */
     }
